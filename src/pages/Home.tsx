@@ -20,7 +20,7 @@ import {
 import { Field, FieldGroup, FieldLabel } from "./../components/ui/field";
 import { ArrowUpRight, MessageCirclePlus } from "lucide-react";
 import { useAuth } from "@/layouts/authContext";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Spinner } from "@/components/ui/spinner";
 import api from "@/lib/api";
