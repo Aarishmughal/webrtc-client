@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+  /* --color-bg: #1e1e1e;
+  --color-bg-secondary: #2e2e2e;
+  --color-text: #f5f5f5;
+  --color-text-secondary: #c0c0c0;
+  --color-accent: #ff6f61;
+  --color-accent-hover: #ff3b2e; */
+  --font-primary: 'Zalando Sans', sans-serif;
+  --font-secondary: 'Inter', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--font-primary);
+}
+p, div, span, li, a, button, input, textarea {
+  font-family: var(--font-secondary);
+}
+
